@@ -1,0 +1,19 @@
+﻿@model List<BestMovies.Models.Movie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies</h2>
+
+
+<div class="container">
+    @foreach (var movie in Model)
+    {
+        <a href="@Url.Action("Details", "Movie" , new {Id = movie.Id})">@movie.Name:</a>
+        <br/>
+        @movie.Author
+        <br/>
+        @*        @Html.ActionLink(customer.FirstName+customer.LastName, "Details", "Customers" , 0) @customer.FirstName @customer.LastName*@
+    }
+</div>

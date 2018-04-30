@@ -1,0 +1,12 @@
+﻿@model BestMovies.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.FirstName @Model.LastName</h2>
+<br/>
+<span>@Model.Membership.Duration</span>
+<br/>
+<span>@Model.BirthDate.Value.ToShortDateString()</span>
+
