@@ -14,30 +14,6 @@ namespace BestMovies.Controllers
         // GET: Movie
         public ActionResult Index()
         {
-//            var customers = new List<Movie>()
-//            {
-//                new Movie()
-//                {
-//                    Id = 0,
-//                    Name = "Game of Thrones",
-//                    Author = "George R. Martin"
-//                },
-//
-//                new Movie()
-//                {
-//                    Id = 1,
-//                    Name = "Sherlok Holmes",
-//                    Author = "Arthur Conan Doyle"
-//                },
-//
-//                new Movie()
-//                {
-//                    Id = 2,
-//                    Name = "C sharp",
-//                    Author = "Anders Hejlsberg"
-//                },
-//            };
-
             var DB = new DB_Context();
 
             return View(DB.Movies.ToList());
@@ -45,35 +21,13 @@ namespace BestMovies.Controllers
 
         public ActionResult Details(int? id)
         {
-            //            var movies = new List<Movie>()
-            //            {
-            //                new Movie()
-            //                {
-            //                    Id = 0,
-            //                    Name = "Game of Thrones",
-            //                    Author = "George R. Martin"
-            //                },
-            //
-            //                new Movie()
-            //                {
-            //                    Id = 1,
-            //                    Name = "Sherlok Holmes",
-            //                    Author = "Arthur Conan Doyle"
-            //                },
-            //
-            //                new Movie()
-            //                {
-            //                    Id = 2,
-            //                    Name = "C sharp",
-            //                    Author = "Anders Hejlsberg"
-            //                },
-            //            };
+
             var DB = new DB_Context();
 
             Movie movie = null;
             try
             {
-                movie = DB.Movies.First(c => c.Id == id);
+                movie = DB.Movies.Include("Genre").First(c => c.Id == id);
             }
             catch (Exception e)
             {

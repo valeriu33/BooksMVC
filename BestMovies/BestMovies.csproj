@@ -170,13 +170,9 @@
     <Compile Include="Migrations\201804301047300_add_bithdate_samples.Designer.cs">
       <DependentUpon>201804301047300_add_bithdate_samples.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804301110472_add_genre_and_movie_changes.cs" />
-    <Compile Include="Migrations\201804301110472_add_genre_and_movie_changes.Designer.cs">
-      <DependentUpon>201804301110472_add_genre_and_movie_changes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804301225082_add_genre_and_other_samples.cs" />
-    <Compile Include="Migrations\201804301225082_add_genre_and_other_samples.Designer.cs">
-      <DependentUpon>201804301225082_add_genre_and_other_samples.cs</DependentUpon>
+    <Compile Include="Migrations\201804301238448_add_genre_and_other_stuff.cs" />
+    <Compile Include="Migrations\201804301238448_add_genre_and_other_stuff.Designer.cs">
+      <DependentUpon>201804301238448_add_genre_and_other_stuff.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -258,11 +254,8 @@
     <EmbeddedResource Include="Migrations\201804301047300_add_bithdate_samples.resx">
       <DependentUpon>201804301047300_add_bithdate_samples.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804301110472_add_genre_and_movie_changes.resx">
-      <DependentUpon>201804301110472_add_genre_and_movie_changes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804301225082_add_genre_and_other_samples.resx">
-      <DependentUpon>201804301225082_add_genre_and_other_samples.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201804301238448_add_genre_and_other_stuff.resx">
+      <DependentUpon>201804301238448_add_genre_and_other_stuff.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

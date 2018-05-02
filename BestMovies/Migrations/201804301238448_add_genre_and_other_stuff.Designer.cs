@@ -7,13 +7,13 @@ namespace BestMovies.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class add_genre_and_other_samples : IMigrationMetadata
+    public sealed partial class add_genre_and_other_stuff : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(add_genre_and_other_samples));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(add_genre_and_other_stuff));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804301225082_add_genre_and_other_samples"; }
+            get { return "201804301238448_add_genre_and_other_stuff"; }
         }
         
         string IMigrationMetadata.Source

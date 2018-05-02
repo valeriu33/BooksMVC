@@ -98,5 +98,5 @@ c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.csproj
 c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.sample_data.resources
 c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_bithdate.resources
 c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_bithdate_samples.resources
-c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_and_movie_changes.resources
-c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_and_other_samples.resources
+c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_and_other_stuff.resources
+c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_sample.resources

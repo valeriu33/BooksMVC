@@ -5,3 +5,10 @@
 }
 
 <h2>@Model.Name by @Model.Author</h2>
+
+<ul>
+    <li> Genre : @Model.Genre.Name</li>
+    <li> Release Date : @Model.ReleaseTime.ToShortDateString() </li>
+    <li> Date Added : @Model.DateAdded.ToShortDateString() </li>
+    <li> Number in Stock : @Model.NumbetInStok </li>
+</ul>
