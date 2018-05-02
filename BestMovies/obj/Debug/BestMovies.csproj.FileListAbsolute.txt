@@ -99,4 +99,6 @@ c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrat
 c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_bithdate.resources
 c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_bithdate_samples.resources
 c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_and_other_stuff.resources
-c:\users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_sample.resources
+C:\Users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.make_genreId_nullable.resources
+C:\Users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_sample.resources
+C:\Users\vseremet\source\repos\BestMovies\BestMovies\obj\Debug\BestMovies.Migrations.add_genre_sample_2.resources

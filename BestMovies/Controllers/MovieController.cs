@@ -31,7 +31,7 @@ namespace BestMovies.Controllers
             }
             catch (Exception e)
             {
-                return Content("We dont have this customer");
+                return Content("We dont have this movie");
             }
 
             return View(movie);

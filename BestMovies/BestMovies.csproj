@@ -174,6 +174,17 @@
     <Compile Include="Migrations\201804301238448_add_genre_and_other_stuff.Designer.cs">
       <DependentUpon>201804301238448_add_genre_and_other_stuff.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805021137166_make_genreId_nullable.Designer.cs">
+      <DependentUpon>201805021137166_make_genreId_nullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805021209495_add_genre_sample.cs" />
+    <Compile Include="Migrations\201805021209495_add_genre_sample.Designer.cs">
+      <DependentUpon>201805021209495_add_genre_sample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805021226393_add_genre_sample_2.cs" />
+    <Compile Include="Migrations\201805021226393_add_genre_sample_2.Designer.cs">
+      <DependentUpon>201805021226393_add_genre_sample_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -256,6 +267,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804301238448_add_genre_and_other_stuff.resx">
       <DependentUpon>201804301238448_add_genre_and_other_stuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805021137166_make_genreId_nullable.resx">
+      <DependentUpon>201805021137166_make_genreId_nullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805021209495_add_genre_sample.resx">
+      <DependentUpon>201805021209495_add_genre_sample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805021226393_add_genre_sample_2.resx">
+      <DependentUpon>201805021226393_add_genre_sample_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

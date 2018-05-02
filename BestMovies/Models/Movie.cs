@@ -11,8 +11,8 @@ namespace BestMovies.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }
-
-        public int GenreId { get; set; }
+        
+        public int? GenreId { get; set; }
         public Genre Genre { get; set; }
 
         [Required] public DateTime ReleaseTime { get; set; }

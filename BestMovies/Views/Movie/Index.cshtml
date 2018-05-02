@@ -12,7 +12,7 @@
     {
         <a href="@Url.Action("Details", "Movie" , new {Id = movie.Id})">@movie.Name:</a>
         <br/>
-        @movie.Author
+        <p>by @movie.Author </p>
         <br/>
         @*        @Html.ActionLink(customer.FirstName+customer.LastName, "Details", "Customers" , 0) @customer.FirstName @customer.LastName*@
     }
